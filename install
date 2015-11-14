@@ -1,0 +1,19 @@
+#!/bin/bash
+
+ICON_FOLDER=~/.icons/Mokamentary
+mkdir -p $ICON_FOLDER
+cp index.theme $ICON_FOLDER
+ln -s /usr/share/icons/elementary/actions  $ICON_FOLDER/actions
+ln -s /usr/share/icons/elementary/animations $ICON_FOLDER/animations
+ln -s /usr/share/icons/elementary/categories $ICON_FOLDER/categories
+ln -s /usr/share/icons/elementary/cursors $ICON_FOLDER/cursors
+ln -s /usr/share/icons/elementary/cursor.theme $ICON_FOLDER/cursor.theme
+ln -s /usr/share/icons/elementary/devices $ICON_FOLDER/devices
+ln -s /usr/share/icons/elementary/emblems $ICON_FOLDER/emblems
+ln -s /usr/share/icons/elementary/emotes $ICON_FOLDER/emotes
+ln -s /usr/share/icons/elementary/mimes $ICON_FOLDER/mimes
+ln -s /usr/share/icons/elementary/panel $ICON_FOLDER/panel
+ln -s /usr/share/icons/elementary/places $ICON_FOLDER/places
+ln -s /usr/share/icons/elementary/status $ICON_FOLDER/status
+gtk-update-icon-cache
+gtk-update-icon-cache-3.0
