@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Mokamentary
 Comment=Mixing Moka with Elementary
-Inherits=Moka,gnome,hicolor
+Inherits=Moka,Numix-Circle,Faenza,gnome,hicolor
 
 Example=directory-x-normal
 
